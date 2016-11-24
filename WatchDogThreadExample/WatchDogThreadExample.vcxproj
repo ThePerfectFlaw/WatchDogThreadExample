@@ -146,6 +146,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyGameInstance.cpp" />
+    <ClCompile Include="WatchDogThread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyGameInstance.h" />
+    <ClInclude Include="WatchDogThread.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
